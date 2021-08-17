@@ -28,4 +28,3 @@ https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales
 let primerNum = prompt('Escribe un número: ');
 let segundoNum = prompt('Escribe un número: ');
 document.write(parseInt(primerNum,10)+parseInt(segundoNum,10));
-
