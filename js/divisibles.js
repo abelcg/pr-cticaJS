@@ -54,4 +54,6 @@ if(n % 2 == 0 && n % 3 == 0 && n % 5 == 0 && n % 7 == 0){
     document.write('<br>El numero es divisible por 5')
 }else if(n % 7 == 0){
     document.write('<br>El numero es divisible por 7')
+}else{
+    document.write('<br>El numero NO es divisible por 2, 3, 5 o 7')
 };
