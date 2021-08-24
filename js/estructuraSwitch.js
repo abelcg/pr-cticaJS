@@ -13,7 +13,7 @@ switch(operacion){
         //codigo a ejecutar por defecto
 }
 */
-
+/*
 let estacion = prompt('Ingrese su estacion del año preferida: 1. verano, 2. invierno, 3. otoño, 4. primavera');
 
 switch(estacion){
@@ -33,3 +33,5 @@ switch(estacion){
     default:
         alert('Ingreso una opcion invalida'); 
 }
+
+*/
