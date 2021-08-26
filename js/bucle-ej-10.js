@@ -28,4 +28,4 @@ for (let i = 0; i < filas; i++) {
     document.write('</tr>');
 }
 //cierro la etiqueta table
-document.write('</table>');
+document.write('</table>'); 
