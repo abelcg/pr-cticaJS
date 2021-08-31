@@ -11,11 +11,26 @@ function saludar(nombre, apellido){
 }
 
 //funciones que retornan un valor
-function convertirDolaresPesos(dolares){
+/* function convertirDolaresPesos(dolares){
     let pesos = dolares * 190;
     //siempre el return es la ultima linea de una funcion
     return pesos;
+} */
+
+let convertirDolaresPesos = (dolares) => {
+    let pesos = dolares * 190;
+
+    return pesos;
 }
+
+//arow functions o funciones en forma de flecha
+/* 
+
+    let nombreFuncion = (parametro1, parametro2) => {
+        aqui va el codigo de la funcion
+    } 
+*/
+
 
 //ejecutar o invocar o llamar una funcion
 holaMundo();
