@@ -17,3 +17,5 @@ let auto = {
         return false;
     },
 }
+
+console.log(auto);

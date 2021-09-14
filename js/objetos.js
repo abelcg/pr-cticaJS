@@ -15,7 +15,7 @@ let funkoIronMan = {
   sinStock: function () {
     return false;
   },
-  tengoStock: () => {
+  disponible: () => {
     return true;
   }
 };
@@ -41,15 +41,16 @@ funkoIronMan.disponible = true;
 //borrar una propiedad de un objeto
 
 delete funkoIronMan.version;
+
 mostrarObjeto();
 
 //llamar a un metodo de un objeto
-console.log( funkoIronMan.tengoStock());
+console.log( funkoIronMan.disponible());
 
 
 function mostrarObjeto() {
   // mostrar todas las propiedes de un objeto
-  let claves = Object.keys(funkoIronMan); //usando el metodo keys del objeto Object obtengo en forma de un arreglo las claves de lsa propiedades
+  let claves = Object.keys(funkoIronMan); //usando el metodo keys del objeto Object obtengo en forma de un arreglo las claves de las propiedades
   console.log(claves); //['nombre', 'numSerie',...]
   console.log(claves.length); //la longitud del arreglo de claves
 
